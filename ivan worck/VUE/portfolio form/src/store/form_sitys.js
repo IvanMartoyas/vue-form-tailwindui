@@ -78,12 +78,8 @@ export default {
                 mail: state.form_data.mail,
                 city_id: state.form_data.city_id,
             }
-
             
             commit("reset_form_data");
-
-            
-            
 
             axios({
                 method: 'get',
