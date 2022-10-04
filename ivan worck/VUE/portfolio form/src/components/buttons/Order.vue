@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <SPBButton></SPBButton><MoscowButton></MoscowButton>
+    <div class="Order__button">
+        <MoscowButton></MoscowButton> <SPBButton></SPBButton>
     </div>
 </template>
 <script>
@@ -15,3 +15,14 @@
       }
     }
 </script>
+<style lang="scss" scoped>
+    .Order__button {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 0 25px;
+        button {
+            margin-right: 20px;
+        }
+    }
+</style>

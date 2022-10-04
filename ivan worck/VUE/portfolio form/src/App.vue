@@ -20,5 +20,15 @@ export default {
 </script>
 
 <style lang="scss">
-
+  @import './assets/css/output.css';
+  
+  .bg-primary {
+    background: #3B82F6!important;
+  }
+  .bg-success {
+    background: #28a745!important;
+  }
+  .bg-success--darck {
+    background: #0D9488!important;
+  }
 </style>
